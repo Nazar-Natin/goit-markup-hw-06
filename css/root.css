@@ -1,0 +1,78 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --hero-bg: rgba(46, 47, 66, 0.7);
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-bg: #2e2f42;
+  --white: #ffffff;
+  --modal-bg: #fcfcfc;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--text);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+div,
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1157px) {
+  section {
+    margin-bottom: 96px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  section {
+    margin-bottom: 120px;
+  }
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
