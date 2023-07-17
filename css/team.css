@@ -78,10 +78,6 @@
     justify-content: center;
   }
 
-  .card {
-    width: calc((100% - 24px) / 2);
-  }
-
   .card:not(:nth-child(2n)) {
     margin-right: 24px;
   }
