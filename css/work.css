@@ -5,15 +5,8 @@
 }
 
 @media screen and (min-width: 1158px) {
-  .work h2 {
-    color: var(--dark);
-    text-align: center;
-    margin-bottom: 72px;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+  .work {
+    padding-top: 0;
   }
 
   .work ul {

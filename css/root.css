@@ -32,13 +32,13 @@ p {
 
 @media screen and (max-width: 1157px) {
   section {
-    margin-bottom: 96px;
+    padding: 96px 0 96px 0;
   }
 }
 
 @media screen and (min-width: 1158px) {
   section {
-    margin-bottom: 120px;
+    padding: 120px 0 120px 0;
   }
 }
 
@@ -49,6 +49,7 @@ a {
 }
 
 ul {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -75,4 +76,14 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+h2 {
+  color: var(--dark);
+  text-align: center;
+  margin-bottom: 72px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
