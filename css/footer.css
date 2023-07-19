@@ -18,6 +18,13 @@ footer {
   display: block;
   margin-bottom: 17.5px;
   text-align: center;
+  color: var(--primary-brand);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 footer .logo-end {
@@ -26,8 +33,8 @@ footer .logo-end {
 
 footer p {
   max-width: 268px;
-  color: var(--light);
   margin-bottom: 72px;
+  color: var(--light);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -48,8 +55,8 @@ footer h3 {
 
 footer ul {
   display: flex;
-  gap: 16px;
   margin-bottom: 72px;
+  gap: 16px;
 }
 
 footer ul li {
@@ -148,9 +155,10 @@ footer button {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   footer .container {
+    width: 552px;
     display: flex;
     flex-wrap: wrap;
-    padding: 97.5px 108px 96px 108px;
+    padding: 97.5px 0 96px 0;
   }
 
   .footer-text {
@@ -158,11 +166,22 @@ footer button {
   }
 
   .logo-footer {
+    color: var(--primary-brand);
     text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
 
   footer p {
     width: 264px;
+  }
+
+  footer h3 {
+    text-align: left;
   }
 
   footer form {
@@ -211,7 +230,7 @@ footer button {
 
 @media screen and (min-width: 1158px) {
   footer {
-    padding-top: 101.5px;
+    padding: 101.5px 0 100px 0;
   }
 
   footer .container {
@@ -223,7 +242,14 @@ footer button {
   }
 
   .logo-footer {
+    color: var(--primary-brand);
     text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
 
   footer p {

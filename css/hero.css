@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 428px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hero h1 {
     max-width: 320px;
     color: var(--white);
@@ -70,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .hero h1 {
     max-width: 496px;
     color: var(--white);
